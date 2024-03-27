@@ -1,0 +1,66 @@
+/* styles.css */
+
+/* Estilos generales */
+@import url("https://fonts.googleapis.com/css2?family=Spline+Sans:wght@300;400;500;600;700&display=swap");
+
+footer {
+  margin-top: 200px;
+  font-family: "Spline Sans", sans-serif;
+  background-color: rgba(238, 191, 35, 0.3);
+  color: #000;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 30px;
+}
+
+footer h3 {
+  padding: 15px;
+  border-bottom: 1px solid #000;
+}
+
+footer div {
+  flex: 1;
+}
+
+footer h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+footer ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+footer ul li {
+  margin-bottom: 0.5rem;
+}
+
+footer p {
+  margin-bottom: 0.5rem;
+}
+
+@media (max-width: 928px) {
+  .enlaces {
+    display: none;
+  }
+}
+/* Media queries para hacerlo responsive */
+@media (max-width: 768px) {
+  footer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  footer div {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  footer h3 {
+    font-size: 1rem;
+  }
+}

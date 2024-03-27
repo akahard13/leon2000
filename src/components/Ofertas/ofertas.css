@@ -5,6 +5,9 @@
 *:before {
 	box-sizing: border-box;
 }
+button:hover{
+	cursor: pointer;
+}
 .cards {
     font-family: "Spline Sans", sans-serif;
 	display: flex;

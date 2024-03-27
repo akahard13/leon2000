@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Spline+Sans:wght@300;400;500;600;700&display=swap");
+
+.show {
+  margin: 50px;
+  font-family: "Spline Sans", sans-serif;
+}
+
+.show ul {
+  list-style-type: none;
+  box-shadow: 10px -1px rgba(0,0,0,0.1);
+
+}
+ #credit {
+  width: 500px;
+  height: 40px;
+  border-radius: 25px;
+  color: #343434;
+  background-color: #E9E7E7;
+  border:none;
+ }
+ #credit option {
+  text-align: center;
+  color: #343434;
+  border: none;
+}
+.selecting {
+ 
+  justify-content: space-around;
+  margin:auto;
+  text-align: center;
+}
+.show h3 {
+  margin-left: 12px;
+}
+
+.show li {
+  padding: 10px;
+  background-color: #B4F8C6;
+}
+
+.show li:hover {
+  cursor: pointer;
+  background-color: #B4F8D2;
+}
+
+.show .tab-pane {
+  text-align: justify;
+}
+
+@media (max-width: 950px) {
+  .show {
+    margin-top: 50px;
+  }
+}

@@ -8,6 +8,7 @@ import {
 
 import './index.css';
 import Home from './containers/home/Home.jsx';
+import Show from './containers/Show/Show.jsx';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -18,8 +19,8 @@ const router = createBrowserRouter([
         element: <Home/>
       },
       {
-        path: "/hey",
-        element: <Home/>
+        path: "/:id",
+        element: <Show/>
       }
     ],
   },
